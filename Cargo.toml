@@ -1,0 +1,12 @@
+[package]
+name = "llmsh"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cc = "=1.0.83"
+ctrlc = "3.4"
+llama_cpp_rs = "0.3.0"
+inquire = "0.7.2"
